@@ -1,5 +1,14 @@
 <template>
-  <div class="text-red-500">
-   Hello About 
+  <div>
+
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue';  
+</script>
+
+<style scoped>
+
+</style>
+
