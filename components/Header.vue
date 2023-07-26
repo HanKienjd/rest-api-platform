@@ -1,7 +1,7 @@
 <template>
   <header class="flex justify-between m-4">
-    <div class="font-bold text-2xl text-center uppercase">
-      <nuxt-link to="/">
+    <div class="font-bold text-sm text-center uppercase">
+      <nuxt-link to="https://hoppscotch.io/" target="_blank">
         Hoppscotch
       </nuxt-link>
     </div>
