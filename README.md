@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Restapi Platform Minimal Starter (Lotus)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+</br>
+Look at the [Nestjs documentation](https://docs.nestjs.com/) to learn more.
 
 ## Setup
 
@@ -19,17 +21,43 @@ yarn install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Start the development client on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run dev
+npm run client
 
 # pnpm
-pnpm run dev
+pnpm run client
 
 # yarn
-yarn dev
+yarn client
+```
+
+Start the development server on `http://localhost:8080`:
+
+```bash
+# npm
+npm run server
+
+# pnpm
+pnpm run server
+
+# yarn
+yarn server
+```
+
+Start the development client and server:
+
+```bash
+# npm
+npm run start
+
+# pnpm
+pnpm run start
+
+# yarn
+yarn start
 ```
 
 ## Production
