@@ -1,13 +1,17 @@
 {
-  "name": "nuxt-app",
   "private": true,
+  "version": "0.0.0",
+  "name": "monorepo-restapi-platform",
+  "workspaces": [
+    "packages/*",
+    "client",
+    "server"
+  ],
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint"
+    "client": "yarn workspace client dev",
+    "server": "yarn workspace server dev",
+    "build:client": "yarn workspace client build",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.5",
@@ -26,6 +30,7 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
+    "concurrently": "^8.2.0",
     "pinia": "^2.1.4"
   }
 }

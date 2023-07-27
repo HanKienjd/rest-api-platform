@@ -1,6 +1,6 @@
 # Nuxt dev/build outputs
 .output
-.nuxt
+packages/client/.nuxt
 .nitro
 .cache
 dist
