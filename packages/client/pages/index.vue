@@ -1,19 +1,7 @@
 <template>
-  <div class="text-red-500">
-    hello 
-  </div>
+  <div class="text-red-500">hello</div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  setup() {
-
-
-    return {}
-  }
-})
-</script>
+<script lang="ts"></script>
 
 <style scoped></style>

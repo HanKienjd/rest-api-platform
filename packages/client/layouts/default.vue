@@ -1,10 +1,8 @@
 <template>
-  <Header/>
+  <Header />
   <div>
-
     <slot />
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
