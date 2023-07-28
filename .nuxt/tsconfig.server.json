@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Users/handev/Dev/rest-api-platform/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Users/handev/Dev/rest-api-platform/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Users/handev/Dev/rest-api-platform"
+      ],
+      "~/*": [
+        "/Users/handev/Dev/rest-api-platform/*"
+      ],
+      "@": [
+        "/Users/handev/Dev/rest-api-platform"
+      ],
+      "@/*": [
+        "/Users/handev/Dev/rest-api-platform/*"
+      ],
+      "~~": [
+        "/Users/handev/Dev/rest-api-platform"
+      ],
+      "~~/*": [
+        "/Users/handev/Dev/rest-api-platform/*"
+      ],
+      "@@": [
+        "/Users/handev/Dev/rest-api-platform"
+      ],
+      "@@/*": [
+        "/Users/handev/Dev/rest-api-platform/*"
+      ],
+      "assets": [
+        "/Users/handev/Dev/rest-api-platform/assets"
+      ],
+      "public": [
+        "/Users/handev/Dev/rest-api-platform/public"
+      ],
+      "public/*": [
+        "/Users/handev/Dev/rest-api-platform/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/Users/handev/Dev/rest-api-platform/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
