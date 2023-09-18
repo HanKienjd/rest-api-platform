@@ -14,9 +14,7 @@ const keyPairInitState = [
 ];
 
 export default function Request({ setResponse, setLoading, loading }) {
-  const [url, setUrl] = useState(
-    'https://jsonplaceholder.typicode.com/todos/1'
-  );
+  const [url, setUrl] = useState('https://jsonplaceholder.typicode.com/todos/1');
   const [reqMethod, setReqMethod] = useState('GET');
   const [queryParams, setQueryParams] = useState(keyPairInitState);
   const [headers, setHeaders] = useState(keyPairInitState);
@@ -27,10 +25,6 @@ export default function Request({ setResponse, setLoading, loading }) {
 
     e.preventDefault();
     const requestBody = body.toString();
-    console.log('http method', reqMethod);
-    console.log('headers', headers);
-    console.log('query params ', queryParams);
-    console.log('body ', requestBody);
 
     let data;
     try {
