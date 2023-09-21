@@ -39,7 +39,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rohan-hari/Postman-Clone-React.git
+$ git clone https://github.com/HanKienjd/rest-api-platform.git
 # Go into the repository
 $ cd Postman-Clone-React
 # Install dependencies
